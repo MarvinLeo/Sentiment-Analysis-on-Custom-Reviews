@@ -5,6 +5,9 @@ import nltk
 from nltk.corpus import movie_reviews
 from nltk.tokenize import word_tokenize
 import pickle
+import sys
+reload(sys)
+sys.setdefaultencoding("ISO-8859-1")
 
 #the words set and samples to save
 all_words = []
