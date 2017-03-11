@@ -7,6 +7,9 @@ from sklearn.linear_model import LogisticRegression, SGDClassifier
 from sklearn.svm import LinearSVC, NuSVC
 from sklearn.model_selection import train_test_split
 from nltk.classify import ClassifierI
+import sys
+reload(sys)
+sys.setdefaultencoding("ISO-8859-1")
 
 def mode(arr) :
     m = max([arr.count(a) for a in arr])
@@ -45,6 +48,7 @@ documents = pickle.load(documents_file)
 documents_file.close()
 
 ##only part of the most frequent words are needed for training, use 5k as initial
+all_words = nltk.FreqDist(all_words)
 top_words = 5000
 word_features = [words for (words, c) in all_words.most_common(top_words)]
 
@@ -54,17 +58,26 @@ pickle.dump(word_features, save_words_features)
 save_words_features.close()
 
 ## create features function for each sample
+count = 0
 def create_features(text):
     words = word_tokenize(text)
     features = {}
+    global count
+    count += 1
     for word in word_features:
-        features[word] = (w in words)
+        features[word] = (word in words)
+    if count % 100 == 0:
+        print count, "features finished"
     return features
 
 features_sets = [(create_features(sample), label) for (sample, label) in documents]
+save_features_sets = open("pickled_algos/features_sets.pickle", "wb")
+pickle.dump(features_sets, save_features_sets)
+save_features_sets.close()
 
 ## split the training sets into training and validation sets
 training_set, validation_set = train_test_split(features_sets, test_size=0.2)
+
 
 
 ###create all the classifier we gonna use
