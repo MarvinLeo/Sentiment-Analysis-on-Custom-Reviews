@@ -32,7 +32,7 @@ model.add(Flatten())
 model.add(Dropout(0.2))
 model.add(Dense(180,activation='relu'))
 model.add(Dropout(0.2))
-model.add(Dense(1,activation='sigmoid'))
+model.add(Dense(1,activation='softmax'))
 
 # Log to tensorboard
 tensorBoardCallback = TensorBoard(log_dir='./logs', write_graph=True)
