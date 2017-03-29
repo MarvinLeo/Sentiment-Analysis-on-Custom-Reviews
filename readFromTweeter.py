@@ -5,14 +5,6 @@ import time
 import json
 import sentiment as sent
 
-## Comsumer Key and Secret
-ckey = 'yourkey'
-csecret = 'yourSecret'
-
-## Access Key and Secret
-atoken = 'yourToken'
-asecret = 'youAsecret'
-
 class listener(StreamListener):
     def on_data(self, data):
         all_data = json.loads(data)
@@ -32,8 +24,8 @@ class listener(StreamListener):
     def on_error(self, status):
         print status
 
-auth = OAuthHandler(ckey, csecret)
-auth.set_access_token(atoken, asecret)
-
-twitterStream = Stream(auth, listener())
-twitterStream.filter(track=['car'])
+def readTweet(ckey, csecret, atoken, asecret, keyword):
+    auth = OAuthHandler(ckey, csecret)
+    auth.set_access_token(atoken, asecret)
+    twitterStream = Stream(auth, listener())
+    twitterStream.filter(track=[keyword])

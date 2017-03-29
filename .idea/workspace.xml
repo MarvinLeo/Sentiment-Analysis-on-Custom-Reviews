@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bfb222f-b873-4fb0-9e53-1768451969a6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Rental Listing Inquiries/sample_submission.csv" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cocktailTweets.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LSTM/model.h5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LSTM/model.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1487627845.pal-nat186-91-25.itap.purdue.edu" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1487629579.pal-nat186-91-25.itap.purdue.edu" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1487629911.pal-nat186-91-25.itap.purdue.edu" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1487630101.pal-nat186-91-25.itap.purdue.edu" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1487632157.pal-nat186-91-25.itap.purdue.edu" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1487632880.pal-nat186-91-25.itap.purdue.edu" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1487714682.pal-nat186-80-215.itap.purdue.edu" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1489204007.MarvindeMacBook-Pro.local" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/events.out.tfevents.1490394845.MarvindeMacBook-Pro.local" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movie_sentiment_keras.py" afterPath="$PROJECT_DIR$/movie_sentiment_keras.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/run.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readFromTweeter.py" afterPath="$PROJECT_DIR$/readFromTweeter.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,22 +34,10 @@
       <file leaf-file-name="create_documents.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create_documents.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
               <folding>
                 <element signature="e#195#206#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="training.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/training.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1980">
-              <caret line="141" column="61" lean-forward="false" selection-start-line="141" selection-start-column="61" selection-end-line="141" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +58,8 @@
       <file leaf-file-name="streamingFromTwitter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../coding/Twitter_API/streamingFromTwitter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
-              <caret line="75" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="1080">
+              <caret line="75" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding>
                 <element signature="e#38#63#0" expanded="true" />
               </folding>
@@ -71,10 +70,22 @@
       <file leaf-file-name="readFromTweeter.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readFromTweeter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="403">
+              <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cocktailTweets.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cocktailTweets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,8 +104,8 @@
       <file leaf-file-name="movie_sentiment_keras.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movie_sentiment_keras.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+            <state relative-caret-position="407">
+              <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
               <folding>
                 <element signature="e#55#67#0" expanded="true" />
               </folding>
@@ -156,17 +167,16 @@
         <option value="$PROJECT_DIR$/training.py" />
         <option value="$PROJECT_DIR$/run_RNN.py" />
         <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/movie_sentiment_keras.py" />
         <option value="$PROJECT_DIR$/../../coding/Twitter_API/streamingFromTwitter.py" />
+        <option value="$PROJECT_DIR$/movie_sentiment_keras.py" />
         <option value="$PROJECT_DIR$/readFromTweeter.py" />
+        <option value="$PROJECT_DIR$/cocktailTweets.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1849" />
-    <option name="y" value="77" />
-    <option name="width" value="1399" />
-    <option name="height" value="877" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -203,6 +213,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -216,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.readFromTweeter">
+  <component name="RunManager" selected="Python.cocktailTweets">
     <configuration default="false" name="movie_sentiment_keras" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,24 +241,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Sentiment-Analysis-on-Custom-Reviews" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/movie_sentiment_keras.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="streamingFromTwitter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../coding/Twitter_API" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Sentiment-Analysis-on-Custom-Reviews" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../coding/Twitter_API/streamingFromTwitter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,6 +295,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Sentiment-Analysis-on-Custom-Reviews" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/readFromTweeter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="cocktailTweets" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Sentiment-Analysis-on-Custom-Reviews" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cocktailTweets.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -405,18 +416,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.movie_sentiment_keras" />
-      <item index="1" class="java.lang.String" itemvalue="Python.streamingFromTwitter" />
-      <item index="2" class="java.lang.String" itemvalue="Python.annotation_demo2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.trisurf3d_demo" />
-      <item index="4" class="java.lang.String" itemvalue="Python.readFromTweeter" />
+      <item index="1" class="java.lang.String" itemvalue="Python.annotation_demo2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.trisurf3d_demo" />
+      <item index="3" class="java.lang.String" itemvalue="Python.readFromTweeter" />
+      <item index="4" class="java.lang.String" itemvalue="Python.cocktailTweets" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.readFromTweeter" />
-        <item index="1" class="java.lang.String" itemvalue="Python.trisurf3d_demo" />
-        <item index="2" class="java.lang.String" itemvalue="Python.annotation_demo2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.movie_sentiment_keras" />
-        <item index="4" class="java.lang.String" itemvalue="Python.streamingFromTwitter" />
+        <item index="0" class="java.lang.String" itemvalue="Python.cocktailTweets" />
+        <item index="1" class="java.lang.String" itemvalue="Python.readFromTweeter" />
+        <item index="2" class="java.lang.String" itemvalue="Python.movie_sentiment_keras" />
+        <item index="3" class="java.lang.String" itemvalue="Python.trisurf3d_demo" />
+        <item index="4" class="java.lang.String" itemvalue="Python.annotation_demo2" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -456,20 +467,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1849" y="77" width="1399" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24907885" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25250357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -487,16 +498,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="141" column="61" lean-forward="false" selection-start-line="141" selection-start-column="61" selection-end-line="141" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sentiment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -573,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5820">
           <caret line="390" column="29" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,7 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5820">
           <caret line="390" column="29" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5820">
           <caret line="390" column="29" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,7 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5820">
           <caret line="390" column="29" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,16 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create_documents.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#195#206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sentiment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -871,16 +858,6 @@
         <state relative-caret-position="240">
           <caret line="16" column="39" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="10" selection-end-column="91" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie_sentiment_keras.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
-          <folding>
-            <element signature="e#55#67#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -914,18 +891,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../coding/Twitter_API/streamingFromTwitter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="1080">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
             <element signature="e#38#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/movie_sentiment_keras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+          <folding>
+            <element signature="e#55#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_documents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="e#195#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cocktailTweets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/readFromTweeter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="403">
+          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
