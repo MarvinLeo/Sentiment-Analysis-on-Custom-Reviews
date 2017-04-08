@@ -25,20 +25,24 @@ model = Sequential()
 model.add(Embedding(top_words, embedding_vecor_length, input_length=max_review_length))
 
 # Convolutional model (3x conv, flatten, 2x dense)
-model.add(Convolution1D(64, 3, border_mode='same'))
-model.add(Convolution1D(32, 3, border_mode='same'))
-model.add(Convolution1D(16, 3, border_mode='same'))
-model.add(Flatten())
-model.add(Dropout(0.2))
-model.add(Dense(180,activation='relu'))
-model.add(Dropout(0.2))
-model.add(Dense(1,activation='sigmoid'))
+# model.add(Convolution1D(64, 3, border_mode='same'))
+# model.add(Convolution1D(32, 3, border_mode='same'))
+# model.add(Convolution1D(16, 3, border_mode='same'))
+# model.add(Flatten())
+# model.add(Dropout(0.2))
+# model.add(Dense(180,activation='relu'))
+# model.add(Dropout(0.2))
+
+# LSTM model
+model.add(LSTM(128, dropout=0.2, recurrent_dropout=0.2))
+model.add(Dense(1, activation='sigmoid'))
+
 
 # Log to tensorboard
 tensorBoardCallback = TensorBoard(log_dir='./logs', write_graph=True)
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 
-model.fit(X_train, y_train, nb_epoch=3, callbacks=[tensorBoardCallback], batch_size=64)
+model.fit(X_train, y_train, nb_epoch=3, callbacks=[tensorBoardCallback], batch_size=64, validation_data=(x_test, y_test))
 
 # Evaluation on the test set
 scores = model.evaluate(X_test, y_test, verbose=0)
